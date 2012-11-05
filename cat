@@ -1,5 +1,7 @@
 #!/usr/bin/env pil
 
-(prinl "da cat")
+(while (opt)
+	(in @
+		(echo) ) )
 
 (bye)
