@@ -1,6 +1,6 @@
 #!/usr/bin/env pil
 
-(in @
+(in (opt)
 	(prinl (line T)) )
 
 (bye)
