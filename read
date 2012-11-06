@@ -2,9 +2,14 @@
 
 (one BailAt)
 
-(when (= "-m" (car (argv)))
-	(off BailAt)
-	(opt) )
+(while (= "-" (car (chop (car (argv)))))
+	(case (car (argv))
+		("-m"
+			(opt)
+			(off BailAt) )
+		("-n"
+			(opt)
+			(setq BailAt (format (opt))) ) ) )
 
 (in (opt)
 	(let LineNo 0
