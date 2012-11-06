@@ -1,5 +1,9 @@
 #!/usr/bin/env pil
 
+(unless (argv)
+	(in @
+		(echo) ) )
+
 (while (opt)
 	(in @
 		(echo) ) )
