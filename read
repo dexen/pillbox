@@ -1,6 +1,17 @@
 #!/usr/bin/env pil
 
+(setq BailAt 1)
+
+(when (= "-m" (car (argv)))
+	(setq BailAt NIL)
+	(opt) )
+
 (in (opt)
-	(prinl (line T)) )
+	(let LineNo 0
+		(until (or
+			(= LineNo BailAt)
+			(eof) )
+				(inc 'LineNo)
+				(prinl (line T)) ) ) )
 
 (bye)
