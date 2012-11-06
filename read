@@ -1,0 +1,5 @@
+#!/usr/bin/env pil
+
+(prinl "STUB")
+
+(bye)
