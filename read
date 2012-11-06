@@ -1,5 +1,6 @@
 #!/usr/bin/env pil
 
-(prinl "STUB")
+(in @
+	(prinl (line T)) )
 
 (bye)
