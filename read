@@ -1,9 +1,9 @@
 #!/usr/bin/env pil
 
-(setq BailAt 1)
+(one BailAt)
 
 (when (= "-m" (car (argv)))
-	(setq BailAt NIL)
+	(off BailAt)
 	(opt) )
 
 (in (opt)
